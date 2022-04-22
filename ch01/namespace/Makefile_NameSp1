@@ -1,0 +1,4 @@
+CC = g++
+
+NameSp1: NameSp1.cpp
+	$(CC) -o NameSp1 NameSp1.cpp
