@@ -1,0 +1,4 @@
+CC = g++
+
+inline_template: inline_template_ex.cpp
+	$(CC) -o inline_template inline_template_ex.cpp
