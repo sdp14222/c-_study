@@ -1,0 +1,9 @@
+CC = g++
+CFLAGS = -g -Wall
+OBJS = UsingDcl1.o
+TARGET = UsingDcl1.out
+
+$(TARGET): $(OBJS)
+	$(CC) -o $@ $?
+
+UsingDcl1.o: UsingDcl1.cpp
