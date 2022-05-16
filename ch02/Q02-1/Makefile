@@ -3,6 +3,12 @@ CFLAGS = -g -Wall
 OBJS = Q3.o SwapPointer.o
 TARGET = Q3.out
 
+all: $(TARGET)
+
+clean:
+	rm -f *.o
+	rm -f $(TARGET)
+
 $(TARGET): $(OBJS)
 	$(CC) -o $@ $?
 
