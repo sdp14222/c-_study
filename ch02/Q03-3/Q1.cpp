@@ -18,6 +18,7 @@ int main(int argc, char const *argv[])
 
 	Point &p = PntAdder(*p1, *p2);
 	cout << "p = (" << p.xpos << ", " << p.ypos << ")" << endl;
+	cout << "Make error test" << endl;
 
 	delete p1;
 	delete p2;
