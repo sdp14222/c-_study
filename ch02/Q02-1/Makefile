@@ -10,7 +10,7 @@ clean:
 	rm -f $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) -o $@ $?
+	$(CC) -o $@ $^
 
 Q3.o: Q3.cpp
 

@@ -10,6 +10,6 @@ clean:
 	rm -f $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) -o $@ $?
+	$(CC) -o $@ $^
 
 NewObject.o: NewObject.cpp
