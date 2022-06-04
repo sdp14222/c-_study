@@ -40,5 +40,5 @@ void Calculator::ShowOpCount(void)
 	cout << "덧셈 : " << cnt[i++] << " ";
 	cout << "뺄셈 : " << cnt[i++] << " ";
 	cout << "곱셈 : " << cnt[i++] << " ";
-	cout << "나눗셈 : " << cnt[i];
+	cout << "나눗셈 : " << cnt[i] << endl;
 }
